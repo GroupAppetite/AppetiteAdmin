@@ -1,9 +1,9 @@
 <?php
 
-$server = "fdb13.biz.nf";
-$user   = "2194486_pren";
-$pass   = "IlDatabaseForte1";
-$db     = "2194486_pren";
+$server = "server";
+$user   = "user";
+$pass   = "pass";
+$db     = "db";
 
 try{
 
