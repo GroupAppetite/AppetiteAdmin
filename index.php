@@ -20,9 +20,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            require_once('./private/DBClass.php');
+           
             if($_GET["mode"]=="prenotazioni"){
-                include("mode/prenotazioni.php");
+                include("prenotazione/prenotazioni.php");
+            } else if ($_GET["mode"]=="android") {
+                include("prenotazione/androidtest.php");
+            } else if ($_GET["mode"]=="login") {
+                include("login/formLogin.php");
             } else {
                 include("formRistorante.php");
             }
